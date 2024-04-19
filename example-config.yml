@@ -1,0 +1,11 @@
+sidekiq_namespaces:
+    example-namespace1:
+        host: <redis_endpoint>.cache.amazonaws.com
+        port: 6379
+        db: <db number (int)>
+        service_name: <service namespace if tied to ECS/EKS service>
+    example-namespace2:
+        host: <redis_endpoint>.cache.amazonaws.com
+        port: 6379
+        db: <db number (int)>
+        service_name: <service namespace if tied to ECS/EKS service>
